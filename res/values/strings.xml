@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">拼单吧</string>
+    <string name="hello_world">输入ID查询该用户的订单结果</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">拼单吧</string>
+    <string name="hello">Hello World, SNews!</string>
+    
+    <string name="introduce_1">拼单吧，不仅是拼单平台</string>
+    <string name="introduce_2">这是一个简单的拼单系统</string>
+    <string name="introduce_3">唱着人们心头的白鸽</string>
+    <string name="introduce_4">我想我很适合，做一个歌颂者</string>
+    <string name="introduce_5">开启我的拼单吧</string>
+    
+    
+    <string name="title_bar">拼单吧</string>
+    <string name="title_bar_small">发现生活的乐趣</string>
+    <string name="tab_1">查看拼单</string>
+    <string name="tab_2">新的拼单</string>
+    <string name="tab_3">分享</string>
+    
+
+</resources>

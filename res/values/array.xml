@@ -1,0 +1,16 @@
+<resources>
+
+    <string-array name="themes">
+        <item>性感黑色</item>
+        <item>清新淡蓝</item>
+        <item>烈焰红唇</item>
+        <item>银色诱惑</item>
+    </string-array>
+    <string-array name="themes_value">
+        <item>black</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>white</item>
+    </string-array>
+
+</resources>

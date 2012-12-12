@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_07" 
+    android:id="@+id/rl"
+    >
+    
+    
+    
+    
+    <pku.ss.snews.RandomNews
+        android:id="@+id/viewlb"
+        android:layout_width="190dip"
+        android:layout_height="115dip"
+        android:layout_marginLeft="5dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+    />
+    <pku.ss.snews.RandomNews
+        android:id="@+id/viewrb"
+        android:layout_width="115dip"
+        android:layout_height="115dip"
+        android:layout_toRightOf="@+id/viewlb"
+        android:layout_marginLeft="5dip"
+        android:layout_alignBottom="@+id/viewlb"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+    />
+    <pku.ss.snews.RandomNewsOther
+        android:id="@+id/viewm"
+        android:layout_width="310dip"
+        android:layout_height="95dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_above="@+id/viewrb"
+        android:layout_marginBottom="5dip"
+    />
+    <pku.ss.snews.RandomNews
+        android:id="@+id/viewlt"
+        android:layout_width="115dip"
+        android:layout_height="115dip"
+        android:layout_above="@+id/viewm"
+        android:layout_marginBottom="5dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+    />
+    <pku.ss.snews.RandomNews
+        android:id="@+id/viewrt"
+        android:layout_width="190dip"
+        android:layout_height="115dip"
+        android:layout_above="@+id/viewm"
+        android:layout_marginBottom="5dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+    />
+    
+    <TextView
+        android:id="@+id/tv_lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    
+    <PreferenceCategory android:title="主题设置">	
+    <ListPreference android:key="theme"
+               android:title="设置主界面"
+               android:summary="选择一个喜欢的主界面色系吧"
+               android:entries="@array/themes"
+               android:entryValues="@array/themes_value"
+               android:dialogTitle="请选择一个您喜欢的主题"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="返回" >  
+        <PreferenceScreen android:title="返回主页">
+            <intent android:targetPackage="pku.ss.snews" android:targetClass="pku.ss.snews.MainActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="帮助">
+        <PreferenceScreen android:title="版本更新" android:summary="检查当前版本是否为最新版本">
+            <intent android:targetPackage="pku.ss.snews" android:targetClass="pku.ss.snews.CustomerDialog" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="开发者信息" android:summary="拼单吧团队，联系方式 crystal0ray@gmail.com">
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
